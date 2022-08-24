@@ -1,4 +1,7 @@
+import logoAO from "../resources/AO/logoAO.png"
+
 import './NavBar.scss'
+
 
 
 const NavBar = () => {
@@ -8,7 +11,7 @@ const NavBar = () => {
             <div className="navbar-container">
 
                 <div>
-                    <img scr={logoAO} className="AO-logo" alt="logo"/>
+                    <img src={logoAO} className="AO-logo" alt="logo"/>
                 </div>
 
                 <h1 className="navbar-title">The Art Of Angel Ortiz</h1>
@@ -22,3 +25,5 @@ const NavBar = () => {
         </header>
     )
 }
+
+export default NavBar;
